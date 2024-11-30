@@ -27,6 +27,7 @@ public class MainController implements Initializable {
     @FXML
     private ComboBox dropdownPort;
 
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         dropdownPort.getItems().addAll("7",     // ping
